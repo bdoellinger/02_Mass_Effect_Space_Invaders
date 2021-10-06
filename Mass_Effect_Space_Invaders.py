@@ -13,9 +13,9 @@ WIN = pygame.display.set_mode((Width,Height))
 pygame.display.set_caption("Space_Invaders_pygame")
 
 # load images for enemy ships (Reaper, Geth and Cerberus) and resize
-ReaperShip = PlayerShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_Reaper_Sovereign.png")), (50,int(50*550/189)))
-GethShip = PlayerShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_geth_dreadnought.png")), (50,int(50*287/78)))
-CerberusShip = PlayerShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_cerberus_cruiser.png")), (50,int(50*215/76)))
+ReaperShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_Reaper_Sovereign.png")), (50,int(50*550/189)))
+GethShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_geth_dreadnought.png")), (50,int(50*287/78)))
+CerberusShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_cerberus_cruiser.png")), (50,int(50*215/76)))
 # we use an image of the SSV Normandy as player ship
 PlayerShip = pygame.transform.scale(pygame.image.load(os.path.join("assets","ship_SSV_Normandy_SR2.png")), (50,int(50*666/375)))
 
